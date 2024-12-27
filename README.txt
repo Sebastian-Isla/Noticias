@@ -24,7 +24,7 @@ Para ejecutar este proyecto necesitas:
 ### 1. Clonar el Repositorio
 Clona el repositorio en tu carpeta de trabajo:
 ```bash
-git clone https://github.com/usuario/repositorio.git
+git clone https://github.com/Sebastian-Isla/Noticias.git
 
 
 Proyecto desarrollado por Sebastián como parte de una prueba técnica para Megamedia.
