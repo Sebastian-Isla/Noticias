@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noticias</title>
+    <!-- Enlazar el archivo CSS -->
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <!-- Encabezado -->
+    <header>
+        <h1>Sitio de Noticias</h1>
+    </header>
+
+    <!-- Contenedor principal -->
+    <main>
+        {% for article in articles %}
+        <article>
+            <h2>{{ article.title }}</h2>
+            <p>{{ article.content }}</p>
+            <!-- Video embebido -->
+            {% if article.video_url %}
+            <iframe src="{{ article.video_url }}" frameborder="0" allowfullscreen></iframe>
+            {% endif %}
+            <small>Publicado el {{ article.published_date }}</small>
+        </article>
+        {% endfor %}
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2024 - Mi Sitio de Noticias</p>
+    </footer>
+</body>
+</html>
+
+
+

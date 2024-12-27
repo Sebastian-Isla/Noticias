@@ -1,0 +1,66 @@
+/* styles.css */
+
+/* Colores base */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff; /* Blanco */
+    color: #333333; /* Texto gris oscuro */
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo del encabezado */
+header {
+    background-color: #4CAF50; /* Verde */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+/* Contenedor principal */
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+/* Estilo de los artículos */
+article {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+article h2 {
+    color: #4CAF50; /* Verde */
+    font-size: 1.8em;
+}
+
+article p {
+    font-size: 1em;
+    line-height: 1.6;
+}
+
+article iframe {
+    display: block;
+    margin: 20px 0;
+    width: 100%;
+    max-width: 560px;
+    height: 315px;
+}
+
+/* Footer */
+footer {
+    background-color: #4CAF50; /* Verde */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

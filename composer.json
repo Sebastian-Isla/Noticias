@@ -1,0 +1,20 @@
+{
+    "name": "noticias/app",
+    "description": "Un sitio de noticias necesita crear un aplicativo web que sea capaz de almacenar notas escritas por periodistas",
+    "type": "project",
+    "require": {
+        "twig/twig": "^3.0"
+    },
+    "license": "proprietary",
+    "autoload": {
+        "psr-4": {
+            "Noticias\\App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sebastian"
+        }
+    ],
+    "minimum-stability": "stable"
+}
